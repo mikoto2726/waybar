@@ -43,7 +43,7 @@
 
 // Additional / Edited Waybar Modules  //
 "custom/arch": {
-      "format":"🐉",
+      "format":" 🐉",
       "tooltip": false,
       "on-click": "rofi -show drun"
 },

@@ -196,6 +196,8 @@
 		"class<firefox>": " ",
 		"class<kitty>": " ",
 		"class<kitty-dropterm>": " ",
+		"class<org.gnome.Terminal>": " ",
+		"class<brave-browser>": " ",
 		"class<konsole>": " ",
 		"class<Chromium>": "<span font='12'> </span>",
 		"class<org.telegram.desktop|io.github.tdesktop_x64.TDeskto>": "<span font='12'> </span>",
