@@ -28,9 +28,9 @@
 "modules-center": [
     "clock#forest",
 	"idle_inhibitor",
+	"custom/btc",
 	],
 "modules-right": [
-	"custom/btc",
 	"cpu#forest",
 	"memory#forest",
 	"custom/separator#blank_2",
