@@ -32,7 +32,6 @@
 "modules-right": [
 	"cpu#forest",
 	"memory#forest",
-	"temperature#forest",
 	"disk#forest",
 	"custom/separator#blank_2",
 	"backlight",
@@ -48,7 +47,7 @@
       "on-click": "rofi -show drun"
 },
 "clock#forest": {
-      "format": "{:%A %d.%m.%Y - %H:%M}",
+      "format": "{:%Y.%m.%d.%A - %H:%M:%s}",
       "tooltip-format": "<span color='#D3C6AA' size='larger'>{:%Y %B}</span>\n<tt>{calendar}</tt>",
       "calendar-weeks-pos": "right",
       "today-format": "<span color='#E67E80' weight='ultrabold'>{}</span>",
