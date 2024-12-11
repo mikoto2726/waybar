@@ -26,13 +26,13 @@
 	"tray",
 	],
 "modules-center": [
-	"clock#forest",
+    "clock#forest",
 	"idle_inhibitor",
 	],
 "modules-right": [
+	"custom/btc",
 	"cpu#forest",
 	"memory#forest",
-	"disk#forest",
 	"custom/separator#blank_2",
 	"backlight",
   	"battery#forest",
@@ -46,6 +46,15 @@
       "tooltip": false,
       "on-click": "rofi -show drun"
 },
+
+"custom/btc": {
+    "format": "{}",
+    "exec": "~/.config/waybar/scripts/btc_ws.sh",
+    "interval": 1,
+    "return-type": "json",
+    "on-click": "xdg-open https://www.binance.com/en/futures/BTCUSDT"
+},
+
 "clock#forest": {
       "format": "{:%Y.%m.%d.%A - %H:%M:%S}",
       "tooltip-format": "<span color='#D3C6AA' size='larger'>{:%Y %B}</span>\n<tt>{calendar}</tt>",
