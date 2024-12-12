@@ -1,4 +1,5 @@
 
+
 #!/bin/bash
 
 BINANCE_WS="wss://stream.binance.com:443/ws/btcusdt@trade"
