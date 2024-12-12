@@ -25,18 +25,16 @@
 	"custom/swaync",
 	"tray",
 	],
-"modules-center": [
+"modules-right": [
     "clock#forest",
 	"idle_inhibitor",
 	"custom/btc",
 	],
-"modules-right": [
+"modules-center": [
 	"cpu#forest",
 	"memory#forest",
-	"custom/separator#blank_2",
 	"backlight",
   	"battery#forest",
-	"custom/separator#blank_2",
 	"group/audio",
 	],
 
@@ -81,7 +79,7 @@
 		"warning": 30,
 		"critical": 15
 	},
-	"format": "Battery {icon}  {capacity}%",
+	"format": "{icon}{capacity}%",
 	"format-charging": "Battery  {capacity}%",
 	"format-plugged": "Battery 󱘖 {capacity}%",
 	"format-alt-click": "click",
@@ -98,7 +96,7 @@
 },
 
 "cpu#forest": {
-	"format": "Cpu  󰍛  {usage}%",
+	"format": "󰍛 {usage}%",
 	"interval": 1,
 	"min-length": 5,
 	"format-alt-click": "click",
@@ -122,7 +120,7 @@
 
 "memory#forest": {
 	"interval": 10,
-	"format": "Ram  󰾆  {used:0.1f}G",
+	"format": "󰾆 {used:0.1f}G",
 	"format-alt": "Ram    {percentage}%    󰾆",
 	"format-alt-click": "click",
 	"tooltip": true,
