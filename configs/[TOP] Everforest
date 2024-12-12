@@ -33,9 +33,9 @@
 "modules-center": [
 	"cpu#forest",
 	"memory#forest",
-	"backlight",
   	"battery#forest",
 	"group/audio",
+	"backlight",
 	],
 
 // Additional / Edited Waybar Modules  //
