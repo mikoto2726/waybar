@@ -54,7 +54,7 @@
 },
 
 "clock#forest": {
-      "format": "{:%Y.%m.%d.%A - %H:%M:%S}",
+      "format": "{:%Y.%m.%d.%a - %H:%M:%S}",
       "tooltip-format": "<span color='#D3C6AA' size='larger'>{:%Y %B}</span>\n<tt>{calendar}</tt>",
       "calendar-weeks-pos": "right",
       "today-format": "<span color='#E67E80' weight='ultrabold'>{}</span>",
